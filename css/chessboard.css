@@ -1,0 +1,22 @@
+/*棋盘基本样式*/
+/*贴边*/
+body {
+	margin: 0 auto;
+}
+
+/*棋盘位置*/
+#chessboard {
+	margin: 15px 0 0 300px;
+}
+
+/*表格边框颜色*/
+table {
+	border: #000 solid 2px;
+}
+
+/*单元格宽高 单元格边框颜色*/
+td {
+	border: 1px solid #000;
+	width: 40px;
+	height: 40px;
+}
